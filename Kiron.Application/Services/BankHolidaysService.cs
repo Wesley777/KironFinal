@@ -80,8 +80,9 @@ public class BankHolidaysService : IBankHolidaysService
                 Messsage = errors
             };
         }
+        var regionIdCacheKey = $"{CacheHolidayRegionKey}_{regionId}";
 
-        var cachedResult = _cacheService.Get<IEnumerable<Holiday>>(CacheHolidayRegionKey);
+        var cachedResult = _cacheService.Get<IEnumerable<Holiday>>(regionIdCacheKey);
 
         if (cachedResult != null)
         {
@@ -90,7 +91,7 @@ public class BankHolidaysService : IBankHolidaysService
 
         var result = await _repository.ExecuteStoredProcedureManyAsync<Holiday>("GetBankHolidaysByRegion", new {RegionId = regionId});
 
-        _cacheService.Set(CacheHolidayRegionKey, result, TimeSpan.FromMinutes(_appSettings.ThirdPartyCacheDurationMin));
+        _cacheService.Set(regionIdCacheKey, result, TimeSpan.FromMinutes(_appSettings.ThirdPartyCacheDurationMin));
 
         return result.Select(item => _mapper.Map<HolidayDto>(item)).ToList();
     }
