@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kiron.Infrastructure", "Kiron.Respository\Kiron.Infrastructure.csproj", "{9296EA52-7AC6-42FC-98DD-A1EC2275D4EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kiron.Persistence", "Kiron.Persistence\Kiron.Persistence.csproj", "{51FEFCFA-CF30-4534-A3B2-F3E1E17D9A56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kiron.Domain", "Kiron.Domain\Kiron.Domain.csproj", "{04D67221-82C1-4875-B1A7-1A9238B0FBC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kiron.Application", "Kiron.Application\Kiron.Application.csproj", "{1C8F05F4-5131-4A2D-B608-6CB5AD520CBF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kiron.CacheService", "Kiron.CacheService\Kiron.CacheService.csproj", "{B99038CE-5B68-4886-B12F-2512C232F666}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kiron.Presentation", "Kiron.Prestentation\Kiron.Presentation.csproj", "{388897CD-EACC-4E31-8D88-7EC0FC6364F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kiron.Infrastructure.ThirdPartyHoliday", "Kiron.Infrastructure.ThirdPartyHoliday\Kiron.Infrastructure.ThirdPartyHoliday.csproj", "{FA61213C-D7F0-4E59-991B-8D6ABAF93C9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9296EA52-7AC6-42FC-98DD-A1EC2275D4EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9296EA52-7AC6-42FC-98DD-A1EC2275D4EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9296EA52-7AC6-42FC-98DD-A1EC2275D4EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9296EA52-7AC6-42FC-98DD-A1EC2275D4EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51FEFCFA-CF30-4534-A3B2-F3E1E17D9A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51FEFCFA-CF30-4534-A3B2-F3E1E17D9A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51FEFCFA-CF30-4534-A3B2-F3E1E17D9A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51FEFCFA-CF30-4534-A3B2-F3E1E17D9A56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D67221-82C1-4875-B1A7-1A9238B0FBC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D67221-82C1-4875-B1A7-1A9238B0FBC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D67221-82C1-4875-B1A7-1A9238B0FBC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D67221-82C1-4875-B1A7-1A9238B0FBC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C8F05F4-5131-4A2D-B608-6CB5AD520CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C8F05F4-5131-4A2D-B608-6CB5AD520CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C8F05F4-5131-4A2D-B608-6CB5AD520CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C8F05F4-5131-4A2D-B608-6CB5AD520CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B99038CE-5B68-4886-B12F-2512C232F666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B99038CE-5B68-4886-B12F-2512C232F666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B99038CE-5B68-4886-B12F-2512C232F666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B99038CE-5B68-4886-B12F-2512C232F666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{388897CD-EACC-4E31-8D88-7EC0FC6364F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388897CD-EACC-4E31-8D88-7EC0FC6364F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{388897CD-EACC-4E31-8D88-7EC0FC6364F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{388897CD-EACC-4E31-8D88-7EC0FC6364F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA61213C-D7F0-4E59-991B-8D6ABAF93C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA61213C-D7F0-4E59-991B-8D6ABAF93C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA61213C-D7F0-4E59-991B-8D6ABAF93C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA61213C-D7F0-4E59-991B-8D6ABAF93C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA715204-7E7B-4264-9CE9-8BB0DC78C671}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.20" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+    <PackageReference Include="OneOf" Version="3.0.271" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="8.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.6.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kiron.Application\Kiron.Application.csproj" />
+    <ProjectReference Include="..\Kiron.CacheService\Kiron.CacheService.csproj" />
+    <ProjectReference Include="..\Kiron.Infrastructure.ThirdPartyHoliday\Kiron.Infrastructure.ThirdPartyHoliday.csproj" />
+    <ProjectReference Include="..\Kiron.Persistence\Kiron.Persistence.csproj" />
+    <ProjectReference Include="..\Kiron.Respository\Kiron.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
