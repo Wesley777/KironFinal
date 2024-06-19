@@ -15,6 +15,12 @@ public class HolidayEventsController : Controller
         _bankHolidaysService = bankHolidaysService;
     }
 
+    [HttpGet("updateholidays")]
+    public async Task<IActionResult> UpsertHolidays()
+    {
+        return Ok("This services has been updated thank you!");
+    }
+
     [HttpGet("regions")]
     public async Task<IActionResult> GetRegions()
     {
