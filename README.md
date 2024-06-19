@@ -32,4 +32,4 @@ How to run the project
 7.       Then will retrigger every 24 hours, can be changed in the appsettings HostedServicesDurationHourDelay
 
 
-You can use this admin@gmail.com  1234 for getting a token or use the register to get your details 
+You can use this admin@gmail.com  1234 for getting a token or use the register to get your details ( rem to use **bearer** yourtoken for auth) 
