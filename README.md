@@ -19,8 +19,7 @@ How to run the project
 
 1.       SQLBackups Folder =>  KironTest.bak ( this the file I was sent)
 
-2.       Please use KironQA for the db name or you may change it in the appsetting.json(
-update the connection string) 
+2.       Please use KironQA for the db name or you may change it in the appsetting.json(update the connection string) 
 3.       Once that completed you should have just the navigation table with its data
 
 4.       Run the KironBackUp.sql file to this db
